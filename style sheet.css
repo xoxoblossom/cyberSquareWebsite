@@ -1,0 +1,241 @@
+/* CUSTOMIZES THE HEADER */
+header.home
+{
+    height: 500px;
+    display: flex; /* From w3 schools */
+    justify-content: center; /* From w3 schools */
+    align-items: center; /* From w3 schools */
+    background-image: url("images/homeBackg.jpg");
+    background-repeat: no-repeat; /* From w3 schools */
+    background-size: 1910px 500px; /* From w3 schools */
+    background-color: #5171ff3b;
+    background-blend-mode: color-burn; /* From https://blog.jim-nielsen.com/2025/background-image-opacity-css/ */
+    
+
+    Color: #ff751f;
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+header
+{
+    height: 200px;
+    display: flex; /* From w3 schools */
+    justify-content: center; /* From w3 schools */
+    align-items: center; /* From w3 schools */
+    Color: #ff751f;
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+    background-color: #2d57b5;
+}
+
+/*CUSTOMIZES THE NAVBAR From w3 schools */
+ ul
+ {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+ul.dictionary
+ {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2d57b5;
+}
+
+ul li
+{
+    float: right;
+}
+
+ul li.dictionary
+{
+    float: left;
+}
+
+ul li a
+{
+    display: block;
+    color: #ff751f;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li.dictionary a
+{
+    display: block;
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover
+{
+    background-color: #111111;
+}
+
+ul li.dictionary a:hover
+{
+    background-color: #264b9b;
+}
+
+/* CUSTOMIZES THE BODY */
+body
+{
+    background: #333333;
+}
+
+/* CUSTOMIZES THE MAIN */
+main
+{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+p.dictionary
+{
+    margin-top: 0%;
+    margin-left: 200px;
+    margin-right: 500px;
+}
+
+h1.dictionary
+{
+    text-align: center;
+}
+
+h1
+{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h2
+{
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+
+h3
+{
+    margin-bottom: 0%;
+    margin-left: 200px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/*from w3schools https://www.w3schools.com/CSS/tryit.asp?filename=trycss3_flexbox_flex-grow */
+.modules {
+  display: flex;
+}
+
+.modules div {
+  background-color: #dddcdc;
+  color:#000;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.modules div:hover
+{
+    background-color: #dddcdc;
+    color:#000;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*from w3schools https://www.w3schools.com/css/css3_shadows_box.asp */
+}
+
+a.modules
+{
+    background-color: #dddcdc;
+    color:#000;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* CUSTOMIZES THE FOOTER */
+footer
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 200px;
+    background-color: #2d57b5;
+}
+
+img.footer
+{
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-top: 20px;
+    border-radius: 40%; /*from https://www.youtube.com/watch?v=9ucF-sCKWgc */
+}
+
+p.footerIntro
+{
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-bottom: 0%;
+    text-align: left;
+    margin-top: 60px;
+}
+
+h2.footerIntro
+{
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: 0%;
+    text-align: left;
+}
+
+a.sourcespage
+{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color:#ff751f;
+}
+
+a.sourcespage:hover
+{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color:#b65315;
+}
+
+/*from w3schools https://www.w3schools.com/CSS/tryit.asp?filename=trycss3_flexbox_flex-grow */
+.container {
+  display: flex;
+  background-color: #2d57b5;
+  height: 200px;
+}
+.container div {
+  color:#ff751f;
+  width: 100px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+  font-size: 15px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* CUSTOMIZES THE VLOGS */
+video
+{
+    /*from https://stackoverflow.com/questions/17508729/how-do-you-center-a-video-using-css */
+    display: block;
+    margin: 0 auto;
+}
